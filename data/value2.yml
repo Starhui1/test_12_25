@@ -1,0 +1,7 @@
+info: &data
+  name: 喔喔
+  phone: 13012345678
+
+address:
+  <<: *data
+  abc: "zbc"

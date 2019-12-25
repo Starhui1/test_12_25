@@ -1,0 +1,46 @@
+#name: ("haha","hehe")
+# name: "hehe"
+
+# 支持自动转换数据类型
+#value: 张三
+
+# 多层级关系
+#value:
+#  name1: 张三
+#  name2: 李四
+
+# 数组格式
+#value:
+#  - 1  # -后面必须加空格
+#  - 2
+
+#
+#value:[1,2,3]
+
+# 字典 套 列表 套 字典
+#value:
+#  - name: lili
+#  - address: tbd
+
+# 字典 套 一个列表里面多个字典
+#value:
+#  - name: lili
+#    address: tbd
+
+# 布尔值
+#value: true  # yaml文件支持
+#value2: false
+
+#value: True  # python数据类型
+
+# 空
+#value: ~   #yaml 空
+#value2:    # 没有任何内容
+#value3: null
+#value4: Null
+
+# 日期
+#value: 2020-12-25 10:24:12 # 返回datetime.datetime类型
+#value: 2019-01-12  # 返回datetime.date类型
+#value: 12:12:12  # 返回整数类型
+value: 2018-02-1  # 如果是个位数，一定要补零
